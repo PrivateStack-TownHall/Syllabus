@@ -1,2 +1,0 @@
-# 🍍 Pineapple Stack — Forums App
-
