@@ -29,14 +29,13 @@ B. ERD
 
 C. Study Case
 
-1. Gambar Table
+1.  Gambar Table
 
-   ![Table](./images/table%20users%20dan%20items.png)
+    ![Table](<../../../../.gitbook/assets/table users dan items.png>)
 
-   - Buatlah 2 table menggunakan DB Diagram. (gambar hanya contoh)
+    * Buatlah 2 table menggunakan DB Diagram. (gambar hanya contoh)
+2.  Gambar ERD
 
-2. Gambar ERD
+    ![ERD](../../../../.gitbook/assets/Untitled.png)
 
-   ![ERD](./images/Untitled.png)
-
-   - Buatlah ERD menggunakan min 3 table dan relasi One To Many. (gambar hanya contoh)
+    * Buatlah ERD menggunakan min 3 table dan relasi One To Many. (gambar hanya contoh)

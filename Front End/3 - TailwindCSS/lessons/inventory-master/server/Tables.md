@@ -1,10 +1,12 @@
-# 🗄️ **Field Tables — INVENTORY MASTER**
+# Tables
+
+## 🗄️ **Field Tables — INVENTORY MASTER**
 
 Berikut **list field lengkap** untuk semua **5 tabel** sesuai relasi:
 
----
+***
 
-# 1️⃣ **Warehouse Table**
+## 1️⃣ **Warehouse Table**
 
 **Nama Tabel:** `Warehouses`
 
@@ -17,23 +19,23 @@ Berikut **list field lengkap** untuk semua **5 tabel** sesuai relasi:
 | createdAt | DATE    | auto               | Timestamp          |
 | updatedAt | DATE    | auto               | Timestamp          |
 
----
+***
 
-# 2️⃣ **Category Table**
+## 2️⃣ **Category Table**
 
 **Nama Tabel:** `Categories`
 
-| Field        | Type    | Constraint         | Description         |
-| ------------ | ------- | ------------------ | ------------------- |
-| id           | INTEGER | PK, Auto Increment | Primary Key         |
-| name         | STRING  | NOT NULL           | Nama kategori       |
-| warehouse_id | INTEGER | FK → Warehouses.id | Relasi ke warehouse |
-| createdAt    | DATE    | auto               | Timestamp           |
-| updatedAt    | DATE    | auto               | Timestamp           |
+| Field         | Type    | Constraint         | Description         |
+| ------------- | ------- | ------------------ | ------------------- |
+| id            | INTEGER | PK, Auto Increment | Primary Key         |
+| name          | STRING  | NOT NULL           | Nama kategori       |
+| warehouse\_id | INTEGER | FK → Warehouses.id | Relasi ke warehouse |
+| createdAt     | DATE    | auto               | Timestamp           |
+| updatedAt     | DATE    | auto               | Timestamp           |
 
----
+***
 
-# 3️⃣ **Supplier Table**
+## 3️⃣ **Supplier Table**
 
 **Nama Tabel:** `Suppliers`
 
@@ -46,41 +48,41 @@ Berikut **list field lengkap** untuk semua **5 tabel** sesuai relasi:
 | createdAt | DATE    | auto               | Timestamp      |
 | updatedAt | DATE    | auto               | Timestamp      |
 
----
+***
 
-# 4️⃣ **Item Table**
+## 4️⃣ **Item Table**
 
 **Nama Tabel:** `Items`
 
-| Field       | Type    | Constraint         | Description     |
-| ----------- | ------- | ------------------ | --------------- |
-| id          | INTEGER | PK, Auto Increment | Primary Key     |
-| name        | STRING  | NOT NULL           | Nama barang     |
-| sku         | STRING  | UNIQUE, NOT NULL   | Kode barang     |
-| stock       | INTEGER | DEFAULT 0          | Stok tersedia   |
-| category_id | INTEGER | FK → Categories.id | Relasi kategori |
-| supplier_id | INTEGER | FK → Suppliers.id  | Relasi supplier |
-| createdAt   | DATE    | auto               | Timestamp       |
-| updatedAt   | DATE    | auto               | Timestamp       |
+| Field        | Type    | Constraint         | Description     |
+| ------------ | ------- | ------------------ | --------------- |
+| id           | INTEGER | PK, Auto Increment | Primary Key     |
+| name         | STRING  | NOT NULL           | Nama barang     |
+| sku          | STRING  | UNIQUE, NOT NULL   | Kode barang     |
+| stock        | INTEGER | DEFAULT 0          | Stok tersedia   |
+| category\_id | INTEGER | FK → Categories.id | Relasi kategori |
+| supplier\_id | INTEGER | FK → Suppliers.id  | Relasi supplier |
+| createdAt    | DATE    | auto               | Timestamp       |
+| updatedAt    | DATE    | auto               | Timestamp       |
 
----
+***
 
-# 5️⃣ **StockIn Table**
+## 5️⃣ **StockIn Table**
 
 **Nama Tabel:** `StockIns`
 
 | Field     | Type    | Constraint         | Description       |
 | --------- | ------- | ------------------ | ----------------- |
 | id        | INTEGER | PK, Auto Increment | Primary Key       |
-| item_id   | INTEGER | FK → Items.id      | Barang yang masuk |
+| item\_id  | INTEGER | FK → Items.id      | Barang yang masuk |
 | quantity  | INTEGER | NOT NULL           | Jumlah masuk      |
 | date      | DATE    | NOT NULL           | Tanggal masuk     |
 | createdAt | DATE    | auto               | Timestamp         |
 | updatedAt | DATE    | auto               | Timestamp         |
 
----
+***
 
-# 🔗 **Relasi (1-to-Many)**
+## 🔗 **Relasi (1-to-Many)**
 
 ```
 Warehouse (1) ──< Category (many)
@@ -89,10 +91,10 @@ Supplier (1) ──< Item (many)
 Item (1) ──< StockIn (many)
 ```
 
-Kalau mau, bisa sekalian aku buatkan **migration code Sequelize**, **model code**, atau **ERD visual**.  
+Kalau mau, bisa sekalian aku buatkan **migration code Sequelize**, **model code**, atau **ERD visual**.\
 Mau lanjut?
 
-# DB DIAGRAM
+## DB DIAGRAM
 
 ```
 
@@ -144,19 +146,18 @@ Table stockins {
 
 ```
 
-# ERD
+## ERD
 
-![Img](./Inventory-Master.png "ERD")
+![Img](../../../../../.gitbook/assets/Inventory-Master.png)
 
-# 📥 STOCKIN — FUNGSI & PENJELASAN
+## 📥 STOCKIN — FUNGSI & PENJELASAN
 
-StockIn adalah fitur untuk mencatat setiap proses “barang masuk” ke dalam gudang.
-Setiap kali stok bertambah, sistem membuat satu record StockIn yang berisi:
+StockIn adalah fitur untuk mencatat setiap proses “barang masuk” ke dalam gudang. Setiap kali stok bertambah, sistem membuat satu record StockIn yang berisi:
 
-- itemId → barang apa yang bertambah
-- quantity → berapa jumlah yang masuk
-- source → asal barang (supplier / retur / lainnya)
-- date → kapan barang masuk
+* itemId → barang apa yang bertambah
+* quantity → berapa jumlah yang masuk
+* source → asal barang (supplier / retur / lainnya)
+* date → kapan barang masuk
 
 TUJUAN STOCKIN:
 
@@ -171,5 +172,4 @@ ALUR:
 2. Backend mencatat StockIn baru
 3. (Opsional) Stok item bertambah otomatis
 
-Contoh:
-Item “Mouse Logitech” masuk 30 unit → dibuat 1 record StockIn.
+Contoh: Item “Mouse Logitech” masuk 30 unit → dibuat 1 record StockIn.
