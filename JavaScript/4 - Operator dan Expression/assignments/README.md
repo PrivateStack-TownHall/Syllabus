@@ -1,44 +1,141 @@
-# Syllabus
+# Tujuan Pembelajaran
+- Memahami macam-macam operator di JavaScript (aritmatika, perbandingan, logika)
+- Mampu menggunakan operator ternary
+- Memahami operator precedence
+- Mampu membuat expression kompleks
 
-## Tasks
+---
 
-### Js Fundamental
+# Assignment 1 - Operator Aritmatika (Easy)
+Buat operasi tambah, kurang, kali, bagi, dan modulus dari dua angka.
 
-Mandatory Tasks
+```js
+let a = 10, b = 3;
 
-1. Algoritma dan Pseudocode Variable dan Tipe Data
-2. Conditional - Looping
-3. Array - Function
-4. Object - ES6
-5. OOP
+console.log(a + b, a - b, a * b, a / b, a % b);
+```
 
-   - Pattiserie Chef - _easy_
-   - Tropical Farm - _easy_
+**Hasil yang diharapkan:**
+```
+13 7 30 3.3333333333333335 1
+```
 
-6. MVC
+---
 
-   - Todo Apps - _easy_
-   - WIne Shop - _easy_
-   - Farm Life - _medium_
-   - Snappy Shop - _medium_
-   - Employee Workload - _hard_
+# Assignment 2 - Modulus (Easy)
+Hitung hasil dari `10 % 3` dan jelaskan kegunaannya.
 
-### Back End
+```js
+console.log(10 % 3);
+```
 
-1. Rest API Teori
-2. Fruit Shop (Node + Express + Sequelize)
-3. Fruit Shop (Node + Express + Sequelize) + EJS
-4. Relational Database
-5. Medium / Hard
+**Hasil yang diharapkan:**
+```
+1
+```
 
-### Front End
+---
 
-1. React - Web Design
-   - Bootstrap
-   - Tailwind
-2. Public API
-3. Codigram
-4. Redux - React Redux
-5. Firebase
-   - Authentication
-   - Firestore
+# Assignment 3 - Increment Prefix vs Postfix (Easy)
+Buktikan perbedaan `++x` dan `x++` menggunakan console.log.
+
+```js
+let x = 5;
+console.log(x++); // postfix
+console.log(x);
+
+let y = 5;
+console.log(++y); // prefix
+console.log(y);
+```
+
+**Hasil yang diharapkan:**
+```
+5
+6
+6
+6
+```
+
+---
+
+# Assignment 4 - Operator Logika (Easy)
+Buat contoh penggunaan `&&` dan `||` untuk mengecek dua kondisi sekaligus.
+
+```js
+let umur = 20;
+let punyaKTP = true;
+
+console.log(umur >= 17 && punyaKTP);
+console.log(umur < 17 || punyaKTP);
+```
+
+**Hasil yang diharapkan:**
+```
+true
+true
+```
+
+---
+
+# Assignment 5 - Operator Ternary (Easy)
+Gunakan operator ternary untuk mengecek apakah sebuah angka positif atau negatif.
+
+```js
+let angka = -5;
+let hasil = angka >= 0 ? "Positif" : "Negatif";
+
+console.log(hasil);
+```
+
+**Hasil yang diharapkan:**
+```
+Negatif
+```
+
+---
+
+# Assignment 6 - == vs === (Medium)
+Bandingkan hasil `5 == "5"` dan `5 === "5"`, lalu jelaskan kenapa hasilnya berbeda.
+
+```js
+console.log(5 == "5");
+console.log(5 === "5");
+```
+
+**Hasil yang diharapkan:**
+```
+true
+false
+```
+
+---
+
+# Assignment 7 - Ternary untuk Cek Dewasa (Medium)
+Buat expression ternary untuk menentukan apakah seseorang sudah dewasa (umur >= 18) atau belum.
+
+```js
+let umur = 17;
+let status = umur >= 18 ? "Dewasa" : "Belum Dewasa";
+
+console.log(status);
+```
+
+**Hasil yang diharapkan:**
+```
+Belum Dewasa
+```
+
+---
+
+# Assignment 8 - Operator Precedence (Hard)
+Tentukan hasil dari expression berikut tanpa menjalankannya terlebih dahulu, lalu buktikan dengan console.log: `3 + 4 * 2 > 10 && 5 < 6 || false`.
+
+```js
+console.log(3 + 4 * 2 > 10 && 5 < 6 || false);
+```
+
+**Hasil yang diharapkan:**
+```
+false
+```

@@ -1,44 +1,158 @@
-# Syllabus
+# Tujuan Pembelajaran
+- Mampu menggunakan forEach, map, dan filter
+- Mampu menggunakan find dan findIndex
+- Memahami cara kerja reduce
+- Mampu menggabungkan beberapa array method untuk transformasi data
 
-## Tasks
+---
 
-### Js Fundamental
+# Assignment 1 - forEach (Easy)
+Gunakan `forEach()` untuk mencetak setiap elemen array.
 
-Mandatory Tasks
+```js
+let buah = ["Apel", "Jeruk", "Mangga"];
 
-1. Algoritma dan Pseudocode Variable dan Tipe Data
-2. Conditional - Looping
-3. Array - Function
-4. Object - ES6
-5. OOP
+buah.forEach((item) => console.log(item));
+```
 
-   - Pattiserie Chef - _easy_
-   - Tropical Farm - _easy_
+**Hasil yang diharapkan:**
+```
+Apel
+Jeruk
+Mangga
+```
 
-6. MVC
+---
 
-   - Todo Apps - _easy_
-   - WIne Shop - _easy_
-   - Farm Life - _medium_
-   - Snappy Shop - _medium_
-   - Employee Workload - _hard_
+# Assignment 2 - map vs forEach (Easy)
+Gunakan `map()` untuk membuat array baru berisi hasil kuadrat dari setiap elemen.
 
-### Back End
+```js
+let angka = [1, 2, 3, 4];
+let kuadrat = angka.map((n) => n * n);
 
-1. Rest API Teori
-2. Fruit Shop (Node + Express + Sequelize)
-3. Fruit Shop (Node + Express + Sequelize) + EJS
-4. Relational Database
-5. Medium / Hard
+console.log(kuadrat);
+```
 
-### Front End
+**Hasil yang diharapkan:**
+```
+[ 1, 4, 9, 16 ]
+```
 
-1. React - Web Design
-   - Bootstrap
-   - Tailwind
-2. Public API
-3. Codigram
-4. Redux - React Redux
-5. Firebase
-   - Authentication
-   - Firestore
+---
+
+# Assignment 3 - filter (Easy)
+Gunakan `filter()` untuk mendapatkan hanya angka genap dari sebuah array.
+
+```js
+let angka = [1, 2, 3, 4, 5, 6];
+let genap = angka.filter((n) => n % 2 === 0);
+
+console.log(genap);
+```
+
+**Hasil yang diharapkan:**
+```
+[ 2, 4, 6 ]
+```
+
+---
+
+# Assignment 4 - find dan findIndex (Easy)
+Gunakan `find()` dan `findIndex()` untuk mencari siswa dengan nama "Budi".
+
+```js
+let siswa = [{ nama: "Ani" }, { nama: "Budi" }, { nama: "Cici" }];
+
+console.log(siswa.find((s) => s.nama === "Budi"));
+console.log(siswa.findIndex((s) => s.nama === "Budi"));
+```
+
+**Hasil yang diharapkan:**
+```
+{ nama: 'Budi' }
+1
+```
+
+---
+
+# Assignment 5 - concat (Easy)
+Gabungkan dua array menggunakan `concat()`.
+
+```js
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let gabungan = arr1.concat(arr2);
+
+console.log(gabungan);
+```
+
+**Hasil yang diharapkan:**
+```
+[ 1, 2, 3, 4, 5, 6 ]
+```
+
+---
+
+# Assignment 6 - reduce untuk Total (Medium)
+Gunakan `reduce()` untuk menjumlahkan semua elemen dalam array.
+
+```js
+let angka = [10, 20, 30, 40];
+let total = angka.reduce((acc, curr) => acc + curr, 0);
+
+console.log(total);
+```
+
+**Hasil yang diharapkan:**
+```
+100
+```
+
+---
+
+# Assignment 7 - map + filter (Medium)
+Gunakan kombinasi `map()` dan `filter()` untuk mengambil nama siswa yang nilainya di atas 80.
+
+```js
+let siswa = [
+  { nama: "Ani", nilai: 90 },
+  { nama: "Budi", nilai: 75 },
+  { nama: "Cici", nilai: 85 },
+];
+
+let namaLulus = siswa.filter((s) => s.nilai > 80).map((s) => s.nama);
+
+console.log(namaLulus);
+```
+
+**Hasil yang diharapkan:**
+```
+[ 'Ani', 'Cici' ]
+```
+
+---
+
+# Assignment 8 - Grouping dengan reduce (Hard)
+Gunakan `reduce()` untuk mengelompokkan siswa berdasarkan kelas.
+
+```js
+let siswa = [
+  { nama: "Ani", kelas: "12A" },
+  { nama: "Budi", kelas: "12B" },
+  { nama: "Cici", kelas: "12A" },
+];
+
+let hasil = siswa.reduce((acc, curr) => {
+  if (!acc[curr.kelas]) acc[curr.kelas] = [];
+  acc[curr.kelas].push(curr.nama);
+  return acc;
+}, {});
+
+console.log(hasil);
+```
+
+**Hasil yang diharapkan:**
+```
+{ '12A': [ 'Ani', 'Cici' ], '12B': [ 'Budi' ] }
+```

@@ -1,44 +1,158 @@
-# Syllabus
+# Tujuan Pembelajaran
+- Memahami penggunaan let, const, dan var beserta scope-nya
+- Memahami konsep hoisting
+- Mampu mendeklarasikan variabel dengan baik dan benar
+- Memahami temporal dead zone (TDZ)
 
-## Tasks
+---
 
-### Js Fundamental
+# Assignment 1 - let vs const (Easy)
+Buat variabel dengan `let` dan `const`, lalu coba ubah nilainya untuk melihat perbedaannya.
 
-Mandatory Tasks
+```js
+let umur = 20;
+umur = 21;
 
-1. Algoritma dan Pseudocode Variable dan Tipe Data
-2. Conditional - Looping
-3. Array - Function
-4. Object - ES6
-5. OOP
+const nama = "Vincent";
+// nama = "Budi"; // akan error jika baris ini dijalankan
 
-   - Pattiserie Chef - _easy_
-   - Tropical Farm - _easy_
+console.log(umur, nama);
+```
 
-6. MVC
+**Hasil yang diharapkan:**
+```
+21 Vincent
+```
 
-   - Todo Apps - _easy_
-   - WIne Shop - _easy_
-   - Farm Life - _medium_
-   - Snappy Shop - _medium_
-   - Employee Workload - _hard_
+---
 
-### Back End
+# Assignment 2 - Deklarasi Variabel Nama & Umur (Easy)
+Buat variabel `nama` dan `umur`, lalu tampilkan ke console dalam satu kalimat.
 
-1. Rest API Teori
-2. Fruit Shop (Node + Express + Sequelize)
-3. Fruit Shop (Node + Express + Sequelize) + EJS
-4. Relational Database
-5. Medium / Hard
+```js
+let nama = "Vincent";
+let umur = 25;
 
-### Front End
+console.log(`Nama saya ${nama}, umur ${umur} tahun.`);
+```
 
-1. React - Web Design
-   - Bootstrap
-   - Tailwind
-2. Public API
-3. Codigram
-4. Redux - React Redux
-5. Firebase
-   - Authentication
-   - Firestore
+**Hasil yang diharapkan:**
+```
+Nama saya Vincent, umur 25 tahun.
+```
+
+---
+
+# Assignment 3 - Tipe Data Objek (Easy)
+Sebutkan dan buat contoh dari tipe data reference (object, array, function).
+
+```js
+let obj = { nama: "Vincent" };
+let arr = [1, 2, 3];
+let fn = function () {};
+
+console.log(typeof obj, typeof arr, typeof fn);
+```
+
+**Hasil yang diharapkan:**
+```
+object object function
+```
+
+---
+
+# Assignment 4 - Hoisting var (Easy)
+Buktikan konsep hoisting pada `var` dengan memanggil variabel sebelum dideklarasikan.
+
+```js
+console.log(pesan); // apa hasilnya?
+var pesan = "Halo Sekolah Stack";
+console.log(pesan);
+```
+
+**Hasil yang diharapkan:**
+```
+undefined
+Halo Sekolah Stack
+```
+
+---
+
+# Assignment 5 - Multi Deklarasi (Easy)
+Deklarasikan 3 variabel sekaligus dalam satu baris menggunakan `let`.
+
+```js
+let kota = "Bekasi", provinsi = "Jawa Barat", negara = "Indonesia";
+
+console.log(kota, provinsi, negara);
+```
+
+**Hasil yang diharapkan:**
+```
+Bekasi Jawa Barat Indonesia
+```
+
+---
+
+# Assignment 6 - Scope var, let, const (Medium)
+Buat contoh kode yang menunjukkan perbedaan scope antara `var` dan `let` di dalam block `if`.
+
+```js
+if (true) {
+  var a = "var di dalam block";
+  let b = "let di dalam block";
+}
+
+console.log(a); // bisa diakses
+console.log(b); // error, cek di console
+```
+
+**Hasil yang diharapkan:**
+```
+var di dalam block
+ReferenceError: b is not defined
+```
+
+---
+
+# Assignment 7 - Temporal Dead Zone (Medium)
+Buktikan temporal dead zone dengan mengakses variabel `let` sebelum dideklarasikan.
+
+```js
+console.log(skor); // apa hasilnya?
+let skor = 100;
+```
+
+**Hasil yang diharapkan:**
+```
+ReferenceError: Cannot access 'skor' before initialization
+```
+
+---
+
+# Assignment 8 - Block Scope dalam Loop (Hard)
+Buat dua buah loop `for`, satu menggunakan `var` dan satu menggunakan `let`, lalu simpan function di dalam array pada tiap iterasi. Jelaskan mengapa hasil akhirnya berbeda.
+
+```js
+let fnVar = [];
+for (var i = 0; i < 3; i++) {
+  fnVar.push(() => console.log("var:", i));
+}
+fnVar.forEach((fn) => fn());
+
+let fnLet = [];
+for (let j = 0; j < 3; j++) {
+  fnLet.push(() => console.log("let:", j));
+}
+fnLet.forEach((fn) => fn());
+```
+
+**Hasil yang diharapkan:**
+```
+var: 3
+var: 3
+var: 3
+let: 0
+let: 1
+let: 2
+```
