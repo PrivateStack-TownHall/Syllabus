@@ -1,20 +1,128 @@
-# Assignment 3 - Total Belanja dengan Diskon (Easy)
+# Assignment - Total Belanja dengan Diskon (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggabungkan konsep variabel, function, kondisi, looping, dan array/object dalam satu program
-- Mampu membangun program sederhana yang menyelesaikan masalah nyata
-- Mampu menyusun program CRUD sederhana berbasis console
-- Mampu membangun mini project akhir yang mengintegrasikan seluruh materi
+- Mampu menggunakan function untuk menyelesaikan perhitungan sederhana.
+- Mampu mengolah data menggunakan array of objects.
+- Mampu menerapkan percabangan (`if`) untuk menentukan diskon.
+- Mampu memecah proses perhitungan menjadi beberapa function.
 
 ## Soal
 
-Hitung total belanja dari beberapa item beserta diskon sederhana (diskon 10% jika total di atas 100.000).
+Buatlah dua buah function berikut.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+```javascript
+const calculateTotal = (items) => {
+  // code here
+};
 
-**Hasil yang diharapkan:**
-
+const calculateFinalTotal = (items) => {
+  // code here
+};
 ```
-94500
+
+### Ketentuan
+
+Data barang memiliki struktur berikut.
+
+```javascript
+{
+  name,
+  price,
+  quantity,
+}
+```
+
+---
+
+### Function `calculateTotal()`
+
+Function menerima array of objects, kemudian menghitung total seluruh belanja.
+
+Rumus:
+
+```text
+price × quantity
+```
+
+---
+
+### Function `calculateFinalTotal()`
+
+Function memanggil `calculateTotal()`.
+
+Jika total belanja **lebih dari 100000**, berikan diskon **10%**.
+
+Kemudian kembalikan total akhir setelah dikurangi diskon.
+
+### Validasi
+
+#### calculateTotal()
+
+- Parameter harus berupa array.
+- Jika array kosong, kembalikan `0`.
+- Seluruh `price` dan `quantity` harus berupa number.
+
+#### calculateFinalTotal()
+
+- Gunakan hasil dari `calculateTotal()`.
+- Jika parameter bukan array, tampilkan `"Parameter harus berupa array."`
+
+---
+
+## Result / Test Case
+
+```javascript
+// Test Case 1
+calculateFinalTotal([
+  {
+    name: "Kopi",
+    price: 20000,
+    quantity: 2,
+  },
+  {
+    name: "Roti",
+    price: 15000,
+    quantity: 3,
+  },
+]);
+
+// Output
+85000;
+
+// Test Case 2
+calculateFinalTotal([
+  {
+    name: "Laptop",
+    price: 5000000,
+    quantity: 1,
+  },
+]);
+
+// Output
+4500000;
+
+// Test Case 3
+calculateFinalTotal([]);
+
+// Output
+0;
+
+// Test Case 4
+calculateFinalTotal([
+  {
+    name: "Kopi",
+    price: "20000",
+    quantity: 2,
+  },
+]);
+
+// Output
+("Seluruh harga dan jumlah harus berupa number.");
+
+// Test Case 5
+calculateFinalTotal("Hello");
+
+// Output
+("Parameter harus berupa array.");
 ```
