@@ -1,0 +1,20 @@
+# Assignment 7 - If-Else ke Switch Case (Medium)
+
+## Tujuan Pembelajaran
+
+- Mampu menggunakan if, else if, dan else
+- Mampu menggunakan switch case
+- Memahami nested condition
+- Mampu menggabungkan beberapa kondisi dalam satu logika
+
+## Soal
+
+Ubah program kategori nilai berbentuk if-else menjadi bentuk switch case menggunakan pembulatan puluhan sebagai case.
+
+Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+
+**Hasil yang diharapkan:**
+
+```
+B
+```

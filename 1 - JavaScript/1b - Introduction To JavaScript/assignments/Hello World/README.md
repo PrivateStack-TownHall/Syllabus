@@ -1,0 +1,20 @@
+# Assignment 1 - Hello World (Easy)
+
+## Tujuan Pembelajaran
+
+- Memahami apa itu JavaScript dan perannya dalam web development
+- Mampu menuliskan dan menjalankan kode JavaScript dasar
+- Memahami perbedaan var, let, dan const
+- Memahami konsep dasar asynchronous JavaScript
+
+## Soal
+
+Tampilkan teks "Hello, Sekolah Stack!" ke console.
+
+Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+
+**Hasil yang diharapkan:**
+
+```
+Hello, Sekolah Stack!
+```
