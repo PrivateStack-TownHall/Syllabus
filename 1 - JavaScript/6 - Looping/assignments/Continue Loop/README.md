@@ -1,21 +1,25 @@
-# Assignment 4 - Continue Loop (Easy)
+# Assignment - Menggunakan `continue` pada Perulangan (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan for, while, dan do-while
-- Memahami penggunaan break dan continue
-- Mampu membuat nested loop
-- Mampu menyusun pola menggunakan loop
+- Memahami fungsi statement `continue` dalam perulangan.
+- Mampu melewati iterasi tertentu berdasarkan suatu kondisi.
+- Mampu menggabungkan percabangan dengan perulangan.
+- Mampu mengimplementasikan `continue` dalam program JavaScript.
 
 ## Soal
 
-Lewati angka kelipatan 3 menggunakan `continue`.
+Buatlah sebuah program yang menampilkan angka **1 hingga 10** menggunakan salah satu struktur perulangan (`for`, `while`, atau `do...while`).
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Gunakan statement **`continue`** untuk **melewati setiap bilangan yang merupakan kelipatan 3**, sehingga angka tersebut tidak ditampilkan.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami cara kerja statement `continue`, yaitu melewati iterasi saat ini dan melanjutkan ke iterasi berikutnya tanpa menghentikan proses perulangan.
 
-```
+## Result / Test Case
+
+**Output**
+
+```text
 1
 2
 4

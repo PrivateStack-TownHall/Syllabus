@@ -9,7 +9,7 @@
 
 ## Soal
 
-Cetak pola segitiga bintang (*) sebanyak 5 baris menggunakan nested loop.
+Cetak pola segitiga bintang (\*) sebanyak 5 baris menggunakan nested loop.
 
 Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
 

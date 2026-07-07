@@ -1,21 +1,25 @@
-# Assignment 3 - Break Loop (Easy)
+# Assignment - Menggunakan `break` pada Perulangan (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan for, while, dan do-while
-- Memahami penggunaan break dan continue
-- Mampu membuat nested loop
-- Mampu menyusun pola menggunakan loop
+- Memahami fungsi statement `break` dalam perulangan.
+- Mampu menghentikan proses perulangan berdasarkan suatu kondisi.
+- Mampu menggabungkan percabangan dengan perulangan.
+- Mampu mengimplementasikan `break` dalam program JavaScript.
 
 ## Soal
 
-Hentikan loop ketika menemukan angka 5 menggunakan `break`.
+Buatlah sebuah program yang menampilkan angka secara berurutan menggunakan salah satu struktur perulangan (`for`, `while`, atau `do...while`).
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Hentikan proses perulangan ketika program menemukan angka **5** menggunakan statement `break`.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami bagaimana statement `break` digunakan untuk menghentikan perulangan sebelum seluruh iterasi selesai dijalankan.
 
-```
+## Result / Test Case
+
+**Output**
+
+```text
 1
 2
 3

@@ -1,21 +1,31 @@
-# Assignment 8 - Piramida Angka (Hard)
+# Assignment - Piramida Angka (Hard)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan for, while, dan do-while
-- Memahami penggunaan break dan continue
-- Mampu membuat nested loop
-- Mampu menyusun pola menggunakan loop
+- Memahami penggunaan nested loop (perulangan bersarang).
+- Mampu menyusun pola menggunakan perulangan.
+- Mampu menggabungkan beberapa perulangan dalam satu program.
+- Mampu menyelesaikan permasalahan pola menggunakan logika yang sistematis.
 
 ## Soal
 
-Cetak pola piramida angka sampai baris ke-5 menggunakan nested loop.
+Buatlah sebuah program yang menggunakan **nested loop** untuk menampilkan **pola piramida angka** hingga **5 baris**.
 
-Soal ini membutuhkan pemahaman yang lebih mendalam. Coba pecah masalah menjadi beberapa langkah kecil, selesaikan satu per satu, baru kemudian gabungkan menjadi solusi yang utuh.
+Pada setiap baris, tampilkan angka secara berurutan mulai dari **1** hingga nomor baris saat ini.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami cara kerja **nested loop** dalam membentuk pola yang terdiri dari beberapa baris dan kolom.
 
+## Result / Test Case
+
+**Input**
+
+```text
+5
 ```
+
+**Output**
+
+```text
 1
 1 2
 1 2 3
