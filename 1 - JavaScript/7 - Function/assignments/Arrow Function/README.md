@@ -1,20 +1,30 @@
-# Assignment 4 - Arrow Function (Easy)
+# Assignment - Arrow Function (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat function declaration dan function expression
-- Memahami arrow function
-- Mampu menggunakan default parameter dan rest parameter
-- Memahami konsep closure
+- Memahami perbedaan antara function declaration dan arrow function.
+- Mampu mengubah function declaration menjadi arrow function.
+- Memahami sintaks dasar penulisan arrow function.
+- Mampu menggunakan arrow function dalam program JavaScript.
 
 ## Soal
 
-Ubah function `jumlahkan` di atas menjadi bentuk arrow function.
+Sebuah function `jumlahkan` telah dibuat menggunakan **function declaration**.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Ubahlah function tersebut menjadi **arrow function** tanpa mengubah fungsi atau hasil yang dihasilkan.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami perubahan sintaks dari **function declaration** menjadi **arrow function**, bukan mengubah logika program.
 
+## Result / Test Case
+
+**Input**
+
+```javascript
+jumlahkan(5, 7);
 ```
+
+**Output**
+
+```text
 12
 ```

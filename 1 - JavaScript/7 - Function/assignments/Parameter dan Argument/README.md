@@ -1,20 +1,32 @@
-# Assignment 2 - Parameter dan Argument (Easy)
+# Assignment - Parameter dan Argument (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat function declaration dan function expression
-- Memahami arrow function
-- Mampu menggunakan default parameter dan rest parameter
-- Memahami konsep closure
+- Memahami perbedaan antara parameter dan argument.
+- Mampu membuat function yang menerima beberapa parameter.
+- Mampu memanggil function dengan argument yang sesuai.
+- Mampu menjelaskan hubungan antara parameter dan argument dalam sebuah function.
 
 ## Soal
 
-Buat function dengan 2 parameter, lalu panggil function tersebut dengan argument yang sesuai. Jelaskan perbedaan keduanya dalam komentar.
+Buatlah sebuah **function** yang menerima **dua parameter**, kemudian tampilkan kedua nilai tersebut dalam satu kalimat.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Selanjutnya, panggil function tersebut dengan **dua argument** yang sesuai.
 
-**Hasil yang diharapkan:**
+Setelah program berhasil dijalankan, jelaskan melalui komentar **perbedaan antara parameter dan argument**.
 
+> **Catatan:** Fokus utama assignment ini adalah memahami bahwa **parameter** merupakan variabel yang dideklarasikan pada saat function dibuat, sedangkan **argument** adalah nilai yang diberikan ketika function dipanggil.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+sapa("Andi", "Budi");
 ```
-Vincent & Budi
+
+**Output**
+
+```text
+Andi & Budi
 ```

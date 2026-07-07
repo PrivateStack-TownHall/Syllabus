@@ -1,21 +1,33 @@
-# Assignment 5 - Mengecek Tipe Data (Easy)
+# Assignment - Mengecek Tipe Data (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami tipe data primitif di JavaScript
-- Mampu melakukan pengecekan tipe data menggunakan typeof
-- Memahami konsep implicit type coercion
-- Memahami perbedaan perbandingan == dan ===
+- Memahami penggunaan operator `typeof` dalam JavaScript.
+- Mampu membuat function sederhana.
+- Mampu mengidentifikasi tipe data dari sebuah nilai.
+- Mampu menampilkan hasil pengecekan tipe data menggunakan function.
 
 ## Soal
 
-Buat function untuk mengecek dan menampilkan tipe data dari sebuah variabel yang diberikan.
+Buatlah sebuah **function** yang menerima satu buah parameter, kemudian menampilkan **tipe data** dari nilai yang diberikan menggunakan operator `typeof`.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Function tersebut harus dapat digunakan untuk berbagai tipe data, seperti **number**, **string**, dan **boolean**.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami penggunaan function dan operator `typeof` untuk mengidentifikasi tipe data suatu nilai.
 
+## Result / Test Case
+
+**Input**
+
+```javascript
+checkType(100);
+checkType("Sekolah Stack");
+checkType(true);
 ```
+
+**Output**
+
+```text
 number
 string
 boolean

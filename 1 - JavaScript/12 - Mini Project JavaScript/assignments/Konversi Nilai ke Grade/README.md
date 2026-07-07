@@ -1,20 +1,71 @@
-# Assignment 5 - Konversi Nilai ke Grade (Easy)
+# Assignment - Konversi Nilai ke Grade (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggabungkan konsep variabel, function, kondisi, looping, dan array/object dalam satu program
-- Mampu membangun program sederhana yang menyelesaikan masalah nyata
-- Mampu menyusun program CRUD sederhana berbasis console
-- Mampu membangun mini project akhir yang mengintegrasikan seluruh materi
+- Mampu membuat function dengan parameter dan nilai kembalian.
+- Mampu menggunakan percabangan `if...else if...else`.
+- Mampu mengonversi nilai angka menjadi grade huruf.
+- Mampu menerapkan validasi sederhana pada input.
 
 ## Soal
 
-Buat program konversi nilai angka menjadi huruf (grade) menggunakan function dan if-else.
+Buatlah sebuah function berikut.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
-
-**Hasil yang diharapkan:**
-
+```javascript
+const getGrade = (score) => {
+  // code here
+};
 ```
-B
+
+Function menerima satu parameter berupa nilai (`score`), kemudian mengembalikan grade berdasarkan ketentuan berikut.
+
+| Nilai    | Grade |
+| -------- | ----- |
+| 90 - 100 | A     |
+| 80 - 89  | B     |
+| 70 - 79  | C     |
+| 60 - 69  | D     |
+| 0 - 59   | E     |
+
+> **Catatan:** Fokus utama assignment ini adalah memahami penggunaan `if...else if...else` untuk menentukan grade berdasarkan rentang nilai.
+
+### Validasi
+
+- Jika `score` bukan number, tampilkan `"Nilai harus berupa number."`
+- Jika `score` kurang dari `0` atau lebih dari `100`, tampilkan `"Nilai harus berada di antara 0 dan 100."`
+
+---
+
+## Result / Test Case
+
+```javascript
+// Test Case 1
+getGrade(85);
+
+// Output
+("B");
+
+// Test Case 2
+getGrade(95);
+
+// Output
+("A");
+
+// Test Case 3
+getGrade(70);
+
+// Output
+("C");
+
+// Test Case 4
+getGrade(120);
+
+// Output
+("Nilai harus berada di antara 0 dan 100.");
+
+// Test Case 5
+getGrade("85");
+
+// Output
+("Nilai harus berupa number.");
 ```

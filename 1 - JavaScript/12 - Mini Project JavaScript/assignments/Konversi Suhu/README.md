@@ -1,20 +1,68 @@
-# Assignment 1 - Konversi Suhu (Easy)
+# Assignment - Konversi Suhu Celsius ke Fahrenheit (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggabungkan konsep variabel, function, kondisi, looping, dan array/object dalam satu program
-- Mampu membangun program sederhana yang menyelesaikan masalah nyata
-- Mampu menyusun program CRUD sederhana berbasis console
-- Mampu membangun mini project akhir yang mengintegrasikan seluruh materi
+- Mampu membuat function dengan parameter dan nilai kembalian.
+- Mampu menggunakan variabel untuk melakukan perhitungan.
+- Mampu menerapkan rumus konversi suhu.
+- Mampu melakukan validasi sederhana terhadap input.
 
 ## Soal
 
-Buat program konversi suhu dari Celsius ke Fahrenheit menggunakan function.
+Buatlah sebuah function berikut.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
-
-**Hasil yang diharapkan:**
-
+```javascript
+const convertToFahrenheit = (celsius) => {
+  // code here
+};
 ```
-86
+
+Function menerima satu parameter berupa suhu dalam satuan **Celsius**, kemudian mengembalikan hasil konversinya ke dalam satuan **Fahrenheit**.
+
+Gunakan rumus berikut.
+
+```text
+Fahrenheit = (Celsius × 9 / 5) + 32
+```
+
+> **Catatan:** Fokus utama assignment ini adalah memahami cara menggunakan function untuk menyelesaikan perhitungan sederhana menggunakan rumus matematika.
+
+### Validasi
+
+- Jika `celsius` bukan number, tampilkan `"Suhu harus berupa number."`
+
+---
+
+## Result / Test Case
+
+```javascript
+// Test Case 1
+convertToFahrenheit(30);
+
+// Output
+86;
+
+// Test Case 2
+convertToFahrenheit(0);
+
+// Output
+32;
+
+// Test Case 3
+convertToFahrenheit(100);
+
+// Output
+212;
+
+// Test Case 4
+convertToFahrenheit(-40);
+
+// Output
+-40;
+
+// Test Case 5
+convertToFahrenheit("30");
+
+// Output
+("Suhu harus berupa number.");
 ```

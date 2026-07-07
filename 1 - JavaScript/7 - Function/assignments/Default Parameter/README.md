@@ -1,21 +1,34 @@
-# Assignment 5 - Default Parameter (Easy)
+# Assignment - Default Parameter (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat function declaration dan function expression
-- Memahami arrow function
-- Mampu menggunakan default parameter dan rest parameter
-- Memahami konsep closure
+- Memahami konsep _default parameter_ pada JavaScript.
+- Mampu membuat function dengan parameter default.
+- Mampu menangani parameter yang tidak diberikan saat function dipanggil.
+- Mampu menggunakan _default parameter_ untuk membuat function yang lebih fleksibel.
 
 ## Soal
 
-Buat function `sapa` dengan default parameter nama "Guest" jika tidak diisi.
+Buatlah sebuah **function** bernama `sapa` yang menerima satu parameter, yaitu `nama`.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Gunakan **default parameter** dengan nilai **`"Guest"`** apabila parameter `nama` tidak diberikan saat function dipanggil.
 
-**Hasil yang diharapkan:**
+Function harus menampilkan sapaan sesuai dengan nama yang diterima.
 
+> **Catatan:** Fokus utama assignment ini adalah memahami cara kerja _default parameter_ untuk memberikan nilai bawaan ketika sebuah parameter tidak diisi.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+sapa();
+sapa("Vincent");
 ```
+
+**Output**
+
+```text
 Halo, Guest!
 Halo, Vincent!
 ```

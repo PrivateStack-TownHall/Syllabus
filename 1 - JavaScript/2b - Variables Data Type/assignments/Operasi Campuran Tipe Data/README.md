@@ -1,21 +1,37 @@
-# Assignment 7 - Operasi Campuran Tipe Data (Medium)
+# Assignment - Operasi Campuran Tipe Data (Medium)
 
 ## Tujuan Pembelajaran
 
-- Memahami tipe data primitif di JavaScript
-- Mampu melakukan pengecekan tipe data menggunakan typeof
-- Memahami konsep implicit type coercion
-- Memahami perbedaan perbandingan == dan ===
+- Memahami konsep _implicit type coercion_ pada JavaScript.
+- Memahami perbedaan perilaku operator aritmatika terhadap tipe data yang berbeda.
+- Mampu menganalisis hasil operasi yang melibatkan tipe data `string` dan `number`.
+- Mampu menjelaskan alasan di balik hasil yang diperoleh dari suatu operasi.
 
 ## Soal
 
-Prediksi dan buktikan hasil dari operasi `"5" + 3` dan `"5" - 3` menggunakan console.log, lalu jelaskan alasannya dalam komentar.
+Prediksikan terlebih dahulu hasil dari operasi berikut tanpa menjalankan program.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
-
-**Hasil yang diharapkan:**
-
+```javascript
+"5" + 3;
+"5" - 3;
 ```
+
+Setelah itu, buktikan prediksimu menggunakan `console.log()`, kemudian jelaskan melalui komentar mengapa kedua operasi tersebut menghasilkan nilai yang berbeda.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami bagaimana JavaScript melakukan _implicit type coercion_ saat melakukan operasi dengan tipe data yang berbeda.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+console.log("5" + 3);
+console.log("5" - 3);
+```
+
+**Output**
+
+```text
 53
 2
 ```

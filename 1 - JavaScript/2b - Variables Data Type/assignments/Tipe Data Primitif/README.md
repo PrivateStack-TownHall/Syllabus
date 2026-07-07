@@ -1,20 +1,34 @@
-# Assignment 1 - Tipe Data Primitif (Easy)
+# Assignment - Tipe Data Primitif (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami tipe data primitif di JavaScript
-- Mampu melakukan pengecekan tipe data menggunakan typeof
-- Memahami konsep implicit type coercion
-- Memahami perbedaan perbandingan == dan ===
+- Memahami jenis-jenis tipe data primitif di JavaScript.
+- Mampu mendeklarasikan variabel dengan tipe data yang sesuai.
+- Mampu membedakan karakteristik setiap tipe data primitif.
+- Mampu menggunakan variabel untuk menyimpan berbagai jenis nilai.
 
 ## Soal
 
-Buat variabel untuk masing-masing tipe data primitif: string, number, boolean, null, undefined.
+Buatlah lima buah variabel yang masing-masing merepresentasikan tipe data primitif berikut:
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+- `string`
+- `number`
+- `boolean`
+- `null`
+- `undefined`
 
-**Hasil yang diharapkan:**
+Berikan nilai yang sesuai pada setiap variabel, kemudian tampilkan seluruh nilainya menggunakan `console.log()`.
 
-```
-string 10 false null undefined
+> **Catatan:** Fokus utama assignment ini adalah memahami perbedaan setiap tipe data primitif dan cara mendeklarasikan variabel dengan nilai yang sesuai.
+
+## Result / Test Case
+
+**Output**
+
+```text
+string
+10
+false
+null
+undefined
 ```

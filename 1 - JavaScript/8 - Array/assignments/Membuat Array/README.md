@@ -1,20 +1,28 @@
-# Assignment 1 - Membuat Array (Easy)
+# Assignment - Membuat Array (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat dan mengakses elemen array
-- Memahami method dasar array (push, pop, shift, unshift)
-- Mampu memanipulasi array menggunakan looping
-- Mampu menghilangkan duplikat dalam array secara manual
+- Memahami konsep dasar array di JavaScript.
+- Mampu membuat array kosong dan array yang berisi data.
+- Memahami cara menyimpan beberapa nilai dalam satu variabel.
+- Mampu menampilkan isi array menggunakan JavaScript.
 
 ## Soal
 
-Buat array kosong dan array berisi 5 buah angka.
+Buatlah dua buah array dengan ketentuan sebagai berikut:
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+- Sebuah **array kosong**.
+- Sebuah **array yang berisi lima buah angka**.
 
-**Hasil yang diharapkan:**
+Setelah itu, tampilkan kedua array tersebut menggunakan `console.log()`.
 
-```
-[] [ 10, 20, 30, 40, 50 ]
+> **Catatan:** Fokus utama assignment ini adalah memahami cara mendeklarasikan dan membuat array di JavaScript.
+
+## Result / Test Case
+
+**Output**
+
+```text
+[]
+[10, 20, 30, 40, 50]
 ```

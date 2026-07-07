@@ -1,20 +1,62 @@
-# Assignment 6 - Kategori Nilai (Medium)
+# Assignment - Kategori Nilai (Medium)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan if, else if, dan else
-- Mampu menggunakan switch case
-- Memahami nested condition
-- Mampu menggabungkan beberapa kondisi dalam satu logika
+- Memahami penggunaan struktur percabangan `if...else if...else`.
+- Mampu mengelompokkan data berdasarkan rentang nilai.
+- Mampu menyusun logika percabangan yang terdiri dari beberapa kondisi.
+- Mampu mengimplementasikan percabangan bertingkat dalam program JavaScript.
 
 ## Soal
 
-Buat program untuk menentukan kategori nilai (A, B, C, D) berdasarkan skor menggunakan if-else if.
+Buatlah sebuah program untuk menentukan **kategori nilai** berdasarkan skor yang diinput oleh pengguna menggunakan struktur **`if...else if...else`**.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+Gunakan ketentuan berikut:
 
-**Hasil yang diharapkan:**
+- Nilai **90–100** → **A**
+- Nilai **80–89** → **B**
+- Nilai **70–79** → **C**
+- Nilai **60–69** → **D**
+- Nilai **di bawah 60** → **E**
 
+Program harus menerima sebuah nilai sebagai input, kemudian menampilkan kategori yang sesuai.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami penggunaan struktur `if...else if...else` untuk menangani beberapa kondisi berdasarkan rentang nilai.
+
+## Result / Test Case
+
+**Input**
+
+```text
+85
 ```
+
+**Output**
+
+```text
 B
+```
+
+**Input**
+
+```text
+92
+```
+
+**Output**
+
+```text
+A
+```
+
+**Input**
+
+```text
+58
+```
+
+**Output**
+
+```text
+E
 ```

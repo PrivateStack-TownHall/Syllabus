@@ -1,20 +1,23 @@
-# Assignment 1 - Apa itu Algoritma (Easy)
+# Assignment - Apa itu Algoritma (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami konsep algoritma dan pseudocode
-- Mampu menerjemahkan logika pemecahan masalah ke dalam pseudocode
-- Mampu menyusun pseudocode untuk percabangan dan perulangan
-- Mampu menyusun pseudocode untuk algoritma sorting sederhana
+- Memahami pengertian algoritma.
+- Memahami pentingnya algoritma dalam proses pemecahan masalah.
+- Mampu menjelaskan konsep algoritma menggunakan bahasa sendiri.
+- Mampu menyusun langkah-langkah sederhana dalam bentuk algoritma atau pseudocode.
 
 ## Soal
 
-Tuliskan definisi algoritma dengan bahasamu sendiri, beserta satu contoh algoritma dalam kehidupan sehari-hari.
+Jelaskan pengertian **algoritma** menggunakan bahasamu sendiri.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Selanjutnya, berikan **satu contoh algoritma dalam kehidupan sehari-hari** dalam bentuk langkah-langkah yang runtut atau menggunakan pseudocode sederhana.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Gunakan kalimat yang mudah dipahami. Tidak perlu mencari definisi dari internet secara langsung, tetapi jelaskan berdasarkan pemahamanmu sendiri.
 
-```
-(tidak ada output kode, berupa penjelasan tertulis + contoh pseudocode)
-```
+## Result / Test Case
+
+**Output yang Diharapkan**
+
+- Penjelasan singkat mengenai pengertian algoritma menggunakan bahasa sendiri.
+- Satu contoh algoritma dalam kehidupan sehari-hari yang dituliskan dalam bentuk langkah-langkah atau pseudocode sederhana.

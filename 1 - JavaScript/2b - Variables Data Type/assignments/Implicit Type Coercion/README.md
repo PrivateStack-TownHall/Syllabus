@@ -1,22 +1,32 @@
-# Assignment 6 - Implicit Type Coercion (Medium)
+# Assignment - Implicit Type Coercion (Medium)
 
 ## Tujuan Pembelajaran
 
-- Memahami tipe data primitif di JavaScript
-- Mampu melakukan pengecekan tipe data menggunakan typeof
-- Memahami konsep implicit type coercion
-- Memahami perbedaan perbandingan == dan ===
+- Memahami konsep _implicit type coercion_ pada JavaScript.
+- Memahami bagaimana JavaScript melakukan konversi tipe data secara otomatis.
+- Mampu menganalisis hasil operasi yang melibatkan tipe data yang berbeda.
+- Mampu menjelaskan alasan di balik hasil yang diperoleh dari sebuah operasi.
 
 ## Soal
 
-Buat beberapa contoh operasi yang menunjukkan implicit type coercion, lalu jelaskan hasilnya dalam komentar.
+Buatlah **minimal tiga contoh operasi** yang menunjukkan terjadinya **implicit type coercion** pada JavaScript.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+Untuk setiap contoh yang dibuat:
 
-**Hasil yang diharapkan:**
+1. Tuliskan kode programnya.
+2. Tampilkan hasil yang diperoleh.
+3. Jelaskan melalui komentar mengapa hasil tersebut dapat terjadi.
 
-```
+> **Catatan:** Fokus utama assignment ini adalah memahami bagaimana JavaScript melakukan konversi tipe data secara otomatis ketika melakukan suatu operasi.
+
+## Result / Test Case
+
+**Contoh Output**
+
+```text
 53
 2
 2
 ```
+
+> Nilai di atas hanya merupakan contoh hasil yang mungkin diperoleh. Kamu dapat menggunakan contoh operasi lain selama tetap menunjukkan konsep **implicit type coercion** dan memberikan penjelasan yang benar.

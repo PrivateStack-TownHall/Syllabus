@@ -1,24 +1,33 @@
-# Assignment 5 - Angka Genap 1-20 (Easy)
+# Assignment - Menampilkan Angka Genap 1–20 (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan for, while, dan do-while
-- Memahami penggunaan break dan continue
-- Mampu membuat nested loop
-- Mampu menyusun pola menggunakan loop
+- Memahami penggunaan struktur perulangan (`for`, `while`, atau `do...while`).
+- Mampu menggunakan percabangan di dalam perulangan.
+- Mampu menentukan bilangan genap menggunakan operator modulus (`%`).
+- Mampu menampilkan hasil perulangan sesuai kondisi yang ditentukan.
 
 ## Soal
 
-Cetak semua angka genap dari 1 sampai 20.
+Buatlah sebuah program untuk menampilkan seluruh **bilangan genap** dari **1 hingga 20**.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Gunakan salah satu struktur perulangan (`for`, `while`, atau `do...while`) untuk menampilkan hanya bilangan genap.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Gunakan operator modulus (`%`) untuk menentukan apakah suatu bilangan termasuk bilangan genap.
 
-```
+## Result / Test Case
+
+**Output**
+
+```text
 2
 4
 6
-...
+8
+10
+12
+14
+16
+18
 20
 ```

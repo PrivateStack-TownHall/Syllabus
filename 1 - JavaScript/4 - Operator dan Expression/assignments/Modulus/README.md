@@ -1,20 +1,34 @@
-# Assignment 2 - Modulus (Easy)
+# Assignment - Operator Modulus (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami macam-macam operator di JavaScript (aritmatika, perbandingan, logika)
-- Mampu menggunakan operator ternary
-- Memahami operator precedence
-- Mampu membuat expression kompleks
+- Memahami fungsi operator modulus (`%`) dalam JavaScript.
+- Memahami konsep sisa hasil pembagian.
+- Mampu menggunakan operator modulus untuk menyelesaikan permasalahan sederhana.
+- Mampu menjelaskan hasil operasi modulus.
 
 ## Soal
 
-Hitung hasil dari `10 % 3` dan jelaskan kegunaannya.
+Hitunglah hasil dari operasi berikut menggunakan JavaScript.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
-
-**Hasil yang diharapkan:**
-
+```javascript
+10 % 3;
 ```
+
+Kemudian jelaskan apa yang dimaksud dengan **operator modulus** dan sebutkan salah satu contoh penerapannya dalam pemrograman.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami bahwa operator modulus (`%`) digunakan untuk menghasilkan **sisa hasil pembagian**, bukan hasil pembagiannya.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+10 % 3;
+```
+
+**Output**
+
+```text
 1
 ```

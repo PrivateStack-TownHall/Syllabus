@@ -1,20 +1,32 @@
-# Assignment 5 - Multi Deklarasi (Easy)
+# Assignment - Multi Deklarasi Variabel (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami penggunaan let, const, dan var beserta scope-nya
-- Memahami konsep hoisting
-- Mampu mendeklarasikan variabel dengan baik dan benar
-- Memahami temporal dead zone (TDZ)
+- Memahami cara mendeklarasikan beberapa variabel dalam satu pernyataan.
+- Memahami penggunaan `let` untuk mendeklarasikan variabel.
+- Mampu mendeklarasikan dan menginisialisasi beberapa variabel sekaligus.
+- Mampu menampilkan nilai dari beberapa variabel menggunakan `console.log()`.
 
 ## Soal
 
-Deklarasikan 3 variabel sekaligus dalam satu baris menggunakan `let`.
+Buatlah **tiga buah variabel** dalam **satu baris deklarasi** menggunakan kata kunci `let`.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Gunakan variabel tersebut untuk menyimpan informasi berikut:
 
-**Hasil yang diharapkan:**
+- Nama kota
+- Nama provinsi
+- Nama negara
 
-```
-Bekasi Jawa Barat Indonesia
+Kemudian tampilkan seluruh nilai variabel tersebut menggunakan `console.log()`.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami cara mendeklarasikan beberapa variabel sekaligus dalam satu pernyataan menggunakan `let`.
+
+## Result / Test Case
+
+**Output**
+
+```text
+Bekasi
+Jawa Barat
+Indonesia
 ```

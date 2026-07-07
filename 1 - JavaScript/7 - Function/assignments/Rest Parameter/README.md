@@ -1,20 +1,30 @@
-# Assignment 7 - Rest Parameter (Medium)
+# Assignment - Rest Parameter (Medium)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat function declaration dan function expression
-- Memahami arrow function
-- Mampu menggunakan default parameter dan rest parameter
-- Memahami konsep closure
+- Memahami konsep _rest parameter_ pada JavaScript.
+- Mampu membuat function yang menerima jumlah argument yang tidak tetap.
+- Mampu mengolah kumpulan argument menggunakan _rest parameter_.
+- Mampu menyelesaikan permasalahan menggunakan perulangan dan function.
 
 ## Soal
 
-Buat function yang menerima jumlah argument tidak tetap menggunakan rest parameter, lalu jumlahkan semuanya.
+Buatlah sebuah **function** yang menerima **jumlah argument yang tidak tetap** menggunakan **rest parameter (`...`)**.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+Function tersebut harus menghitung **total penjumlahan** dari seluruh argument yang diberikan, kemudian mengembalikan hasilnya menggunakan `return`.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami penggunaan _rest parameter_ untuk menerima banyak argument dalam sebuah function.
 
+## Result / Test Case
+
+**Input**
+
+```javascript
+sum(1, 2, 3, 4, 5);
 ```
+
+**Output**
+
+```text
 15
 ```

@@ -1,24 +1,40 @@
-# Assignment 8 - Perbandingan == vs === (Hard)
+# Assignment - Perbandingan `==` vs `===` (Hard)
 
 ## Tujuan Pembelajaran
 
-- Memahami tipe data primitif di JavaScript
-- Mampu melakukan pengecekan tipe data menggunakan typeof
-- Memahami konsep implicit type coercion
-- Memahami perbedaan perbandingan == dan ===
+- Memahami perbedaan antara operator `==` dan `===` di JavaScript.
+- Memahami konsep _implicit type coercion_ saat melakukan perbandingan.
+- Mampu menganalisis hasil perbandingan dari berbagai tipe data.
+- Mampu menentukan kapan sebaiknya menggunakan `==` atau `===` dalam penulisan kode.
 
 ## Soal
 
-Buat beberapa perbandingan menggunakan console.log untuk kombinasi nilai berbeda dengan `==` dan `===`, lalu simpulkan kenapa `===` lebih disarankan.
+Buatlah **minimal lima contoh perbandingan** menggunakan operator `==` dan `===` dengan kombinasi nilai yang berbeda. Tampilkan hasilnya menggunakan `console.log()`.
 
-Soal ini membutuhkan pemahaman yang lebih mendalam. Coba pecah masalah menjadi beberapa langkah kecil, selesaikan satu per satu, baru kemudian gabungkan menjadi solusi yang utuh.
+Setelah itu, jelaskan melalui komentar mengapa setiap perbandingan menghasilkan nilai tersebut, kemudian tuliskan kesimpulan mengapa operator `===` lebih disarankan dalam penulisan kode JavaScript.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami perbedaan cara kerja operator `==` dan `===`, serta memahami pengaruh _implicit type coercion_ terhadap hasil perbandingan.
 
+## Result / Test Case
+
+**Contoh Input**
+
+```javascript
+console.log(1 == "1");
+console.log(1 === "1");
+console.log(null == undefined);
+console.log(null === undefined);
+console.log(false == "0");
 ```
+
+**Contoh Output**
+
+```text
 true
 false
 true
 false
-false
+true
 ```
+
+> Nilai di atas hanyalah contoh. Kamu dapat menggunakan kombinasi perbandingan lain selama tetap menunjukkan perbedaan perilaku antara operator `==` dan `===`, serta memberikan penjelasan yang benar.

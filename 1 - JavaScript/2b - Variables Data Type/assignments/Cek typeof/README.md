@@ -1,20 +1,34 @@
-# Assignment 3 - Cek typeof (Easy)
+# Assignment - Cek `typeof` (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami tipe data primitif di JavaScript
-- Mampu melakukan pengecekan tipe data menggunakan typeof
-- Memahami konsep implicit type coercion
-- Memahami perbedaan perbandingan == dan ===
+- Memahami konsep tipe data primitif di JavaScript.
+- Memahami penggunaan operator `typeof` untuk mengetahui tipe data suatu nilai.
+- Mampu mengidentifikasi tipe data dari berbagai nilai di JavaScript.
+- Mampu menganalisis hasil yang dikembalikan oleh operator `typeof`.
 
 ## Soal
 
-Cek hasil dari `typeof "Sekolah Stack"`.
+Gunakan operator **`typeof`** untuk mengetahui tipe data dari nilai berikut.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
-
-**Hasil yang diharapkan:**
-
+```javascript
+"Sekolah Stack";
 ```
+
+Kemudian tampilkan hasil yang dikembalikan oleh operator `typeof`.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami cara kerja operator `typeof` dalam mengidentifikasi tipe data suatu nilai di JavaScript.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+typeof "Sekolah Stack";
+```
+
+**Output**
+
+```text
 string
 ```

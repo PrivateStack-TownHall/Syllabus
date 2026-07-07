@@ -1,20 +1,27 @@
-# Assignment 2 - Deklarasi Variabel Nama & Umur (Easy)
+# Assignment - Deklarasi Variabel Nama dan Umur (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami penggunaan let, const, dan var beserta scope-nya
-- Memahami konsep hoisting
-- Mampu mendeklarasikan variabel dengan baik dan benar
-- Memahami temporal dead zone (TDZ)
+- Memahami cara mendeklarasikan variabel menggunakan `let`, `const`, atau `var`.
+- Memahami penggunaan variabel untuk menyimpan data.
+- Mampu memilih tipe data yang sesuai untuk sebuah nilai.
+- Mampu menampilkan nilai variabel ke dalam sebuah kalimat.
 
 ## Soal
 
-Buat variabel `nama` dan `umur`, lalu tampilkan ke console dalam satu kalimat.
+Buatlah dua buah variabel dengan ketentuan sebagai berikut:
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+- `nama` bertipe data **string**
+- `umur` bertipe data **number**
 
-**Hasil yang diharapkan:**
+Kemudian tampilkan kedua variabel tersebut ke dalam satu kalimat menggunakan `console.log()`.
 
-```
+> **Catatan:** Fokus utama assignment ini adalah memahami cara mendeklarasikan variabel dan menggunakannya untuk menampilkan informasi dalam bentuk kalimat.
+
+## Result / Test Case
+
+**Output**
+
+```text
 Nama saya Vincent, umur 25 tahun.
 ```

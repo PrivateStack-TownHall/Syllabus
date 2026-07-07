@@ -1,20 +1,54 @@
-# Assignment 1 - Arrow Function (Easy)
+# Assignment - Arrow Function (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan arrow function, template literal, dan destructuring
-- Memahami spread dan rest operator
-- Mampu menggunakan default dan rest parameter secara bersamaan
-- Memahami penggabungan object menggunakan spread operator
+- Memahami sintaks arrow function.
+- Mampu membuat function menggunakan arrow function.
+- Mampu menerima parameter dan mengembalikan nilai.
+- Memahami perbedaan penulisan dengan function biasa.
 
 ## Soal
 
-Ubah function biasa berikut menjadi arrow function.
+Buatlah sebuah function berikut.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
-
-**Hasil yang diharapkan:**
-
+```javascript
+const square = (number) => {
+  // code here
+};
 ```
-20
+
+Function menerima satu angka, kemudian mengembalikan nilai kuadrat dari angka tersebut.
+
+### Validasi
+
+- Jika parameter bukan number, tampilkan `"Input harus berupa number."`
+
+---
+
+## Result / Test Case
+
+```javascript
+// Test Case 1
+square(6);
+
+// Output
+36;
+
+// Test Case 2
+square(10);
+
+// Output
+100;
+
+// Test Case 3
+square(-5);
+
+// Output
+25;
+
+// Test Case 4
+square("6");
+
+// Output
+("Input harus berupa number.");
 ```

@@ -1,21 +1,39 @@
-# Assignment 3 - Push dan Pop (Easy)
+# Assignment - Menambah dan Menghapus Elemen Array (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat dan mengakses elemen array
-- Memahami method dasar array (push, pop, shift, unshift)
-- Mampu memanipulasi array menggunakan looping
-- Mampu menghilangkan duplikat dalam array secara manual
+- Memahami fungsi method `push()` dan `pop()` pada array.
+- Mampu menambahkan elemen ke akhir array menggunakan `push()`.
+- Mampu menghapus elemen terakhir dari array menggunakan `pop()`.
+- Mampu memanipulasi isi array menggunakan method bawaan JavaScript.
 
 ## Soal
 
-Tambahkan elemen baru ke akhir array menggunakan `push()`, lalu hapus elemen terakhir menggunakan `pop()`.
+Diberikan sebuah array yang berisi beberapa angka.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Buatlah sebuah program dengan langkah-langkah berikut:
 
-**Hasil yang diharapkan:**
+1. Tambahkan sebuah elemen baru ke **akhir array** menggunakan method `push()`.
+2. Tampilkan isi array setelah proses penambahan.
+3. Hapus elemen terakhir menggunakan method `pop()`.
+4. Tampilkan kembali isi array setelah proses penghapusan.
 
+> **Catatan:** Fokus utama assignment ini adalah memahami cara kerja method `push()` dan `pop()` dalam memanipulasi elemen pada array.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+const numbers = [1, 2, 3];
+
+numbers.push(4);
+numbers.pop();
 ```
-[ 1, 2, 3, 4 ]
-[ 1, 2, 3 ]
+
+**Output**
+
+```text
+[1, 2, 3, 4]
+[1, 2, 3]
 ```
