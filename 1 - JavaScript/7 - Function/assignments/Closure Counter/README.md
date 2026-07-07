@@ -1,21 +1,33 @@
-# Assignment 8 - Closure Counter (Hard)
+# Assignment - Closure Counter (Hard)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat function declaration dan function expression
-- Memahami arrow function
-- Mampu menggunakan default parameter dan rest parameter
-- Memahami konsep closure
+- Memahami konsep **closure** dalam JavaScript.
+- Memahami hubungan antara function dan lexical scope.
+- Mampu membuat function yang menyimpan state menggunakan closure.
+- Mampu mengimplementasikan closure untuk menyelesaikan permasalahan sederhana.
 
 ## Soal
 
-Buat function yang memanfaatkan closure untuk membuat counter yang nilainya tetap tersimpan antar pemanggilan.
+Buatlah sebuah **function** yang memanfaatkan konsep **closure** untuk membuat sebuah **counter**.
 
-Soal ini membutuhkan pemahaman yang lebih mendalam. Coba pecah masalah menjadi beberapa langkah kecil, selesaikan satu per satu, baru kemudian gabungkan menjadi solusi yang utuh.
+Counter harus tetap menyimpan nilai terakhirnya setiap kali function dipanggil, sehingga nilai counter akan terus bertambah pada setiap pemanggilan berikutnya.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami bagaimana **closure** memungkinkan sebuah function tetap mengakses variabel dari scope luarnya, meskipun function tersebut telah selesai dieksekusi.
 
+## Result / Test Case
+
+**Input**
+
+```javascript
+counter();
+counter();
+counter();
 ```
+
+**Output**
+
+```text
 1
 2
 3

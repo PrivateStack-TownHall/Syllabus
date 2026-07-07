@@ -1,20 +1,30 @@
-# Assignment 1 - Function Declaration (Easy)
+# Assignment - Function Declaration (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat function declaration dan function expression
-- Memahami arrow function
-- Mampu menggunakan default parameter dan rest parameter
-- Memahami konsep closure
+- Memahami konsep dasar _function declaration_ di JavaScript.
+- Mampu membuat function menggunakan sintaks _function declaration_.
+- Mampu menerima dan menggunakan parameter pada function.
+- Mampu memanggil function untuk menjalankan suatu proses.
 
 ## Soal
 
-Buat function bernama `sapa` yang menerima parameter nama dan menampilkan salam.
+Buatlah sebuah **function declaration** bernama `sapa` yang menerima satu parameter, yaitu `nama`.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Function tersebut harus menampilkan pesan salam yang menyertakan nama yang diberikan sebagai parameter.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami cara membuat dan memanggil **function declaration** yang menerima parameter.
 
+## Result / Test Case
+
+**Input**
+
+```javascript
+sapa("Vincent");
 ```
+
+**Output**
+
+```text
 Halo, Vincent!
 ```

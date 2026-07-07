@@ -1,21 +1,37 @@
-# Assignment 6 - Function Declaration vs Expression (Medium)
+# Assignment - Function Declaration vs Function Expression (Medium)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat function declaration dan function expression
-- Memahami arrow function
-- Mampu menggunakan default parameter dan rest parameter
-- Memahami konsep closure
+- Memahami perbedaan antara _function declaration_ dan _function expression_.
+- Mampu membuat function menggunakan kedua pendekatan tersebut.
+- Memahami pengaruh _hoisting_ terhadap _function declaration_ dan _function expression_.
+- Mampu menentukan kapan menggunakan _function declaration_ atau _function expression_.
 
 ## Soal
 
-Buat satu contoh function declaration dan satu function expression, lalu jelaskan perbedaan keduanya dalam hal hoisting.
+Buatlah dua buah function dengan ketentuan sebagai berikut:
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+1. Sebuah **function declaration**.
+2. Sebuah **function expression**.
 
-**Hasil yang diharapkan:**
+Kedua function harus menampilkan pesan yang berbeda ketika dipanggil.
 
+Setelah itu, jelaskan perbedaan antara **function declaration** dan **function expression**, terutama dalam hal **hoisting** dan kapan masing-masing dapat dipanggil.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami perbedaan cara penulisan serta perilaku _hoisting_ pada **function declaration** dan **function expression**.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+declarationFunction();
+expressionFunction();
 ```
+
+**Output**
+
+```text
 Ini function declaration
 Ini function expression
 ```
