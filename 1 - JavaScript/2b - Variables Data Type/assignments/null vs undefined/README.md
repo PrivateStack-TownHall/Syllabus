@@ -1,22 +1,35 @@
-# Assignment 4 - null vs undefined (Easy)
+# Assignment - `null` vs `undefined` (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami tipe data primitif di JavaScript
-- Mampu melakukan pengecekan tipe data menggunakan typeof
-- Memahami konsep implicit type coercion
-- Memahami perbedaan perbandingan == dan ===
+- Memahami perbedaan antara `null` dan `undefined` di JavaScript.
+- Memahami kapan `null` dan `undefined` digunakan.
+- Mampu membandingkan nilai menggunakan operator `==` dan `===`.
+- Mampu menganalisis hasil perbandingan antara dua nilai yang berbeda.
 
 ## Soal
 
-Buat variabel dengan nilai `null` dan variabel yang belum diberi nilai (undefined), lalu bandingkan keduanya.
+Buatlah dua buah variabel dengan ketentuan sebagai berikut:
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+- Variabel pertama memiliki nilai `null`.
+- Variabel kedua dideklarasikan tanpa diberikan nilai sehingga bernilai `undefined`.
 
-**Hasil yang diharapkan:**
+Kemudian:
 
-```
-null undefined
+1. Tampilkan nilai dari kedua variabel tersebut.
+2. Bandingkan kedua variabel menggunakan operator `==`.
+3. Bandingkan kembali menggunakan operator `===`.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami perbedaan antara `null` dan `undefined`, serta cara kerja operator perbandingan `==` dan `===` pada kedua nilai tersebut.
+
+## Result / Test Case
+
+**Output**
+
+```text
+null
+undefined
+
 true
 false
 ```
