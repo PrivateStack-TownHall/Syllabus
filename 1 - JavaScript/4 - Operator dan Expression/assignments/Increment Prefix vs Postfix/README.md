@@ -1,21 +1,25 @@
-# Assignment 3 - Increment Prefix vs Postfix (Easy)
+# Assignment - Increment Prefix vs Postfix (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami macam-macam operator di JavaScript (aritmatika, perbandingan, logika)
-- Mampu menggunakan operator ternary
-- Memahami operator precedence
-- Mampu membuat expression kompleks
+- Memahami perbedaan antara operator increment **prefix** (`++x`) dan **postfix** (`x++`).
+- Memahami urutan evaluasi pada operasi increment di JavaScript.
+- Mampu menganalisis hasil penggunaan operator increment dalam sebuah ekspresi.
+- Mampu menjelaskan perbedaan perilaku `++x` dan `x++`.
 
 ## Soal
 
-Buktikan perbedaan `++x` dan `x++` menggunakan console.log.
+Buatlah sebuah program yang membuktikan perbedaan antara operator increment **prefix** (`++x`) dan **postfix** (`x++`) menggunakan `console.log()`.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Jalankan program tersebut, kemudian amati hasil yang ditampilkan. Setelah itu, jelaskan mengapa kedua operator menghasilkan perilaku yang berbeda meskipun sama-sama menambahkan nilai variabel sebesar satu.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami proses evaluasi operator increment dan kapan nilai variabel diperbarui pada operator **prefix** maupun **postfix**.
 
-```
+## Result / Test Case
+
+**Contoh Output**
+
+```text
 5
 6
 6

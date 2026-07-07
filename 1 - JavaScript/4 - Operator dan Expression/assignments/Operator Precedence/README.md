@@ -1,20 +1,36 @@
-# Assignment 8 - Operator Precedence (Hard)
+# Assignment - Operator Precedence (Hard)
 
 ## Tujuan Pembelajaran
 
-- Memahami macam-macam operator di JavaScript (aritmatika, perbandingan, logika)
-- Mampu menggunakan operator ternary
-- Memahami operator precedence
-- Mampu membuat expression kompleks
+- Memahami konsep _operator precedence_ pada JavaScript.
+- Memahami urutan evaluasi operator dalam sebuah expression.
+- Mampu menganalisis expression yang terdiri dari beberapa jenis operator.
+- Mampu memprediksi hasil evaluasi sebuah expression sebelum program dijalankan.
 
 ## Soal
 
-Tentukan hasil dari expression berikut tanpa menjalankannya terlebih dahulu, lalu buktikan dengan console.log: `3 + 4 * 2 > 10 && 5 < 6 || false`.
+Perhatikan expression berikut.
 
-Soal ini membutuhkan pemahaman yang lebih mendalam. Coba pecah masalah menjadi beberapa langkah kecil, selesaikan satu per satu, baru kemudian gabungkan menjadi solusi yang utuh.
-
-**Hasil yang diharapkan:**
-
+```javascript
+(3 + 4 * 2 > 10 && 5 < 6) || false;
 ```
-false
+
+Sebelum menjalankan program, **prediksikan terlebih dahulu** hasil dari expression tersebut beserta urutan proses evaluasinya.
+
+Setelah itu, buktikan jawabanmu menggunakan `console.log()`, lalu jelaskan mengapa expression tersebut menghasilkan nilai tersebut berdasarkan aturan **operator precedence** di JavaScript.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami urutan prioritas operator (_operator precedence_) saat JavaScript mengevaluasi sebuah expression yang terdiri dari operator aritmatika, perbandingan, dan logika.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+console.log((3 + 4 * 2 > 10 && 5 < 6) || false);
+```
+
+**Output**
+
+```text
+true
 ```
