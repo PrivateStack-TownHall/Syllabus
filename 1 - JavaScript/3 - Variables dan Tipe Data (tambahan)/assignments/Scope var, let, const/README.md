@@ -1,21 +1,27 @@
-# Assignment 6 - Scope var, let, const (Medium)
+# Assignment - Scope `var`, `let`, dan `const` (Medium)
 
 ## Tujuan Pembelajaran
 
-- Memahami penggunaan let, const, dan var beserta scope-nya
-- Memahami konsep hoisting
-- Mampu mendeklarasikan variabel dengan baik dan benar
-- Memahami temporal dead zone (TDZ)
+- Memahami konsep scope dalam JavaScript.
+- Memahami perbedaan scope pada `var`, `let`, dan `const`.
+- Mampu mengidentifikasi variabel yang dapat diakses di dalam maupun di luar block.
+- Mampu menjelaskan pengaruh block scope terhadap penggunaan variabel.
 
 ## Soal
 
-Buat contoh kode yang menunjukkan perbedaan scope antara `var` dan `let` di dalam block `if`.
+Buatlah sebuah program yang menunjukkan perbedaan **scope** antara `var`, `let`, dan `const` di dalam sebuah block `if`.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+Deklarasikan masing-masing variabel di dalam block, kemudian coba akses variabel tersebut dari luar block. Amati hasil yang diperoleh, lalu jelaskan mengapa setiap variabel memiliki perilaku yang berbeda.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami bahwa `var` memiliki **function scope**, sedangkan `let` dan `const` memiliki **block scope**.
 
-```
+## Result / Test Case
+
+**Contoh Output**
+
+```text
 var di dalam block
+
 ReferenceError: b is not defined
+ReferenceError: c is not defined
 ```

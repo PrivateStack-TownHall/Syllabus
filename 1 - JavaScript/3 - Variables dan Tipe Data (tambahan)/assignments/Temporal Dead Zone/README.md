@@ -1,20 +1,24 @@
-# Assignment 7 - Temporal Dead Zone (Medium)
+# Assignment - Temporal Dead Zone (Medium)
 
 ## Tujuan Pembelajaran
 
-- Memahami penggunaan let, const, dan var beserta scope-nya
-- Memahami konsep hoisting
-- Mampu mendeklarasikan variabel dengan baik dan benar
-- Memahami temporal dead zone (TDZ)
+- Memahami konsep _Temporal Dead Zone_ (TDZ) pada JavaScript.
+- Memahami perilaku variabel yang dideklarasikan menggunakan `let` dan `const`.
+- Mampu membedakan hoisting pada `var` dengan `let` dan `const`.
+- Mampu menjelaskan penyebab terjadinya `ReferenceError` akibat TDZ.
 
 ## Soal
 
-Buktikan temporal dead zone dengan mengakses variabel `let` sebelum dideklarasikan.
+Buatlah sebuah program yang membuktikan konsep **Temporal Dead Zone (TDZ)** dengan mencoba mengakses sebuah variabel yang dideklarasikan menggunakan `let` **sebelum** variabel tersebut dideklarasikan.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+Jalankan program tersebut, amati error yang muncul, kemudian jelaskan mengapa error tersebut dapat terjadi.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami bahwa variabel yang dideklarasikan menggunakan `let` dan `const` memang mengalami _hoisting_, tetapi tidak dapat diakses sebelum proses deklarasi selesai karena berada di dalam **Temporal Dead Zone (TDZ)**.
 
-```
+## Result / Test Case
+
+**Contoh Output**
+
+```text
 ReferenceError: Cannot access 'skor' before initialization
 ```

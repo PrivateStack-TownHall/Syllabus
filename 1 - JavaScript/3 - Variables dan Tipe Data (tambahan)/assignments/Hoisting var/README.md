@@ -1,21 +1,27 @@
-# Assignment 4 - Hoisting var (Easy)
+# Assignment - Hoisting pada `var` (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami penggunaan let, const, dan var beserta scope-nya
-- Memahami konsep hoisting
-- Mampu mendeklarasikan variabel dengan baik dan benar
-- Memahami temporal dead zone (TDZ)
+- Memahami konsep hoisting pada JavaScript.
+- Memahami perilaku variabel yang dideklarasikan menggunakan `var`.
+- Mampu membedakan proses deklarasi dan inisialisasi variabel.
+- Mampu menjelaskan hasil yang ditampilkan akibat mekanisme hoisting.
 
 ## Soal
 
-Buktikan konsep hoisting pada `var` dengan memanggil variabel sebelum dideklarasikan.
+Buatlah sebuah program yang membuktikan konsep **hoisting** pada variabel yang dideklarasikan menggunakan `var`.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Cobalah mengakses variabel **sebelum** variabel tersebut dideklarasikan, kemudian tampilkan kembali nilainya **setelah** variabel diberikan nilai.
 
-**Hasil yang diharapkan:**
+Selanjutnya, jelaskan mengapa hasil yang ditampilkan sebelum dan sesudah deklarasi berbeda.
 
-```
+> **Catatan:** Fokus utama assignment ini adalah memahami bahwa deklarasi variabel dengan `var` akan diangkat (_hoisted_) ke bagian atas scope, sedangkan proses pemberian nilai (inisialisasi) tetap dilakukan pada baris tempat variabel tersebut ditulis.
+
+## Result / Test Case
+
+**Contoh Output**
+
+```text
 undefined
 Halo Sekolah Stack
 ```

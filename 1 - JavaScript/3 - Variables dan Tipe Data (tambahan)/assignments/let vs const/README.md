@@ -1,20 +1,30 @@
-# Assignment 1 - let vs const (Easy)
+# Assignment - Perbedaan `let` dan `const` (Easy)
 
 ## Tujuan Pembelajaran
 
-- Memahami penggunaan let, const, dan var beserta scope-nya
-- Memahami konsep hoisting
-- Mampu mendeklarasikan variabel dengan baik dan benar
-- Memahami temporal dead zone (TDZ)
+- Memahami perbedaan penggunaan `let` dan `const`.
+- Memahami kapan sebaiknya menggunakan `let` atau `const`.
+- Mampu mendeklarasikan variabel dengan kata kunci yang sesuai.
+- Mampu menjelaskan perilaku variabel saat nilainya diubah.
 
 ## Soal
 
-Buat variabel dengan `let` dan `const`, lalu coba ubah nilainya untuk melihat perbedaannya.
+Buatlah dua buah variabel dengan ketentuan sebagai berikut:
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+- Satu variabel menggunakan `let`.
+- Satu variabel menggunakan `const`.
 
-**Hasil yang diharapkan:**
+Berikan nilai awal pada kedua variabel tersebut, kemudian coba ubah nilainya. Amati hasil yang terjadi, lalu jelaskan mengapa perilaku `let` dan `const` berbeda.
 
+> **Catatan:** Fokus utama assignment ini adalah memahami perbedaan karakteristik antara `let` dan `const`, khususnya terkait kemampuan untuk mengubah nilai variabel setelah dideklarasikan.
+
+## Result / Test Case
+
+**Contoh Output**
+
+```text
+21
+Vincent
 ```
-21 Vincent
-```
+
+> Saat mencoba mengubah nilai pada variabel yang menggunakan `const`, program akan menghasilkan error. Jelaskan penyebabnya pada jawabanmu.
