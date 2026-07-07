@@ -1,20 +1,62 @@
-# Assignment 4 - Nested If (Easy)
+# Assignment - Nested `if` (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan if, else if, dan else
-- Mampu menggunakan switch case
-- Memahami nested condition
-- Mampu menggabungkan beberapa kondisi dalam satu logika
+- Memahami konsep **nested `if`** (percabangan bersarang).
+- Mampu menyusun percabangan yang terdiri dari lebih dari satu kondisi.
+- Mampu menggabungkan beberapa syarat untuk mengambil sebuah keputusan.
+- Mampu mengimplementasikan nested `if` dalam program JavaScript.
 
 ## Soal
 
-Buat nested if untuk mengecek kelayakan mendaftar SIM (umur >= 17 dan punya KTP).
+Buatlah sebuah program yang menggunakan **nested `if`** untuk menentukan apakah seseorang **boleh mendaftar SIM**.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Gunakan ketentuan berikut:
 
-**Hasil yang diharapkan:**
+- Umur **minimal 17 tahun**.
+- Memiliki **KTP**.
 
+Seseorang hanya dapat mendaftar SIM jika **kedua syarat tersebut terpenuhi**.
+
+> **Catatan:** Fokus utama assignment ini adalah memahami cara menggunakan **nested `if`** untuk memeriksa beberapa kondisi yang saling berkaitan.
+
+## Result / Test Case
+
+**Input**
+
+```text
+Umur = 18
+Memiliki KTP = Ya
 ```
+
+**Output**
+
+```text
 Boleh mendaftar SIM
+```
+
+**Input**
+
+```text
+Umur = 16
+Memiliki KTP = Ya
+```
+
+**Output**
+
+```text
+Belum boleh mendaftar SIM
+```
+
+**Input**
+
+```text
+Umur = 18
+Memiliki KTP = Tidak
+```
+
+**Output**
+
+```text
+Belum boleh mendaftar SIM
 ```

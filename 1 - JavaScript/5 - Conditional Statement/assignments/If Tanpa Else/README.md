@@ -1,20 +1,42 @@
-# Assignment 3 - If Tanpa Else (Easy)
+# Assignment - `if` Tanpa `else` (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan if, else if, dan else
-- Mampu menggunakan switch case
-- Memahami nested condition
-- Mampu menggabungkan beberapa kondisi dalam satu logika
+- Memahami penggunaan struktur percabangan `if`.
+- Mampu menentukan kondisi yang memerlukan satu aksi tanpa alternatif.
+- Mampu menyusun logika sederhana menggunakan `if`.
+- Mampu mengimplementasikan percabangan dasar dalam program JavaScript.
 
 ## Soal
 
-Buat kode if tanpa else untuk memberi peringatan jika stok barang di bawah 10.
+Buatlah sebuah program yang menggunakan **percabangan `if` tanpa `else`** untuk menampilkan peringatan ketika stok barang berada di bawah **10**.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Jika stok barang kurang dari **10**, tampilkan pesan peringatan. Jika kondisi tersebut tidak terpenuhi, program tidak perlu menampilkan apa pun.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami penggunaan `if` sebagai percabangan tunggal tanpa menggunakan `else` atau `else if`.
 
+## Result / Test Case
+
+**Input**
+
+```text
+Stok = 5
 ```
+
+**Output**
+
+```text
 Stok menipis!
+```
+
+**Input**
+
+```text
+Stok = 20
+```
+
+**Output**
+
+```text
+(Tidak ada output)
 ```

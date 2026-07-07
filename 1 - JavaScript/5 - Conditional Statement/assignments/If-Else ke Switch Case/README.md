@@ -1,20 +1,32 @@
-# Assignment 7 - If-Else ke Switch Case (Medium)
+# Assignment - Mengubah `if...else` menjadi `switch case` (Medium)
 
 ## Tujuan Pembelajaran
 
-- Mampu menggunakan if, else if, dan else
-- Mampu menggunakan switch case
-- Memahami nested condition
-- Mampu menggabungkan beberapa kondisi dalam satu logika
+- Memahami perbedaan penggunaan `if...else` dan `switch case`.
+- Mampu mengubah logika percabangan dari `if...else` menjadi `switch case`.
+- Memahami penggunaan `switch case` untuk menangani beberapa kondisi.
+- Mampu memilih struktur percabangan yang sesuai dengan kebutuhan.
 
 ## Soal
 
-Ubah program kategori nilai berbentuk if-else menjadi bentuk switch case menggunakan pembulatan puluhan sebagai case.
+Sebuah program menentukan **kategori nilai** menggunakan struktur `if...else`.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+Ubah logika tersebut menjadi **`switch case`** dengan menggunakan **hasil pembulatan ke puluhan** sebagai nilai pada setiap `case`.
 
-**Hasil yang diharapkan:**
+Setelah program selesai dibuat, jelaskan mengapa penggunaan `switch case` dapat menjadi alternatif dari `if...else` pada kasus tertentu.
 
+> **Catatan:** Fokus utama assignment ini adalah memahami cara mengubah logika percabangan dari `if...else` menjadi `switch case` tanpa mengubah hasil yang diharapkan.
+
+## Result / Test Case
+
+**Input**
+
+```text
+Nilai = 85
 ```
+
+**Output**
+
+```text
 B
 ```
