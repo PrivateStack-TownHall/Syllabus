@@ -1,20 +1,30 @@
-# Assignment 4 - Panjang Array (Easy)
+# Assignment - Panjang Array (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat dan mengakses elemen array
-- Memahami method dasar array (push, pop, shift, unshift)
-- Mampu memanipulasi array menggunakan looping
-- Mampu menghilangkan duplikat dalam array secara manual
+- Memahami properti `length` pada array di JavaScript.
+- Mampu mengetahui jumlah elemen yang terdapat dalam sebuah array.
+- Mampu mengakses properti bawaan (`length`) pada array.
+- Mampu menampilkan hasil menggunakan JavaScript.
 
 ## Soal
 
-Tampilkan panjang (length) dari sebuah array.
+Diberikan sebuah array yang berisi beberapa data.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Buatlah sebuah program untuk menampilkan **jumlah elemen** yang terdapat pada array tersebut menggunakan properti **`length`**.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami penggunaan properti `length` untuk mengetahui jumlah elemen dalam sebuah array.
 
+## Result / Test Case
+
+**Input**
+
+```javascript
+const fruits = ["Apel", "Jeruk", "Mangga"];
 ```
+
+**Output**
+
+```text
 3
 ```

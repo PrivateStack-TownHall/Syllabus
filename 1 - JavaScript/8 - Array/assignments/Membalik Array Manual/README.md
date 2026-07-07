@@ -1,20 +1,31 @@
-# Assignment 6 - Membalik Array Manual (Medium)
+# Assignment - Rotasi Array ke Kanan (Hard)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat dan mengakses elemen array
-- Memahami method dasar array (push, pop, shift, unshift)
-- Mampu memanipulasi array menggunakan looping
-- Mampu menghilangkan duplikat dalam array secara manual
+- Memahami manipulasi elemen pada array.
+- Mampu mengubah posisi elemen dalam array menggunakan logika pemrograman.
+- Mampu membuat function yang menerima parameter array dan jumlah rotasi.
+- Mampu menyelesaikan studi kasus manipulasi array tanpa mengubah data secara manual.
 
 ## Soal
 
-Balik urutan elemen array tanpa menggunakan method `reverse()`.
+Buatlah sebuah **function** yang dapat merotasi sebuah array ke **arah kanan** sebanyak **n kali**.
 
-Soal ini menggabungkan beberapa konsep sekaligus, jadi luangkan waktu untuk merancang alur logikanya di atas kertas terlebih dahulu sebelum menuliskan solusi akhir.
+Rotasi ke kanan berarti elemen terakhir pada array dipindahkan ke posisi paling depan sebanyak jumlah rotasi yang ditentukan.
 
-**Hasil yang diharapkan:**
+> **Catatan:** Fokus utama assignment ini adalah memahami proses manipulasi array menggunakan perulangan atau method array yang sesuai.
 
+## Result / Test Case
+
+**Input**
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+const n = 2;
 ```
-[ 5, 4, 3, 2, 1 ]
+
+**Output**
+
+```text
+[4, 5, 1, 2, 3]
 ```

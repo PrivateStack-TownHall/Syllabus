@@ -1,21 +1,34 @@
-# Assignment 2 - Akses Elemen Array (Easy)
+# Assignment - Mengakses Elemen Array (Easy)
 
 ## Tujuan Pembelajaran
 
-- Mampu membuat dan mengakses elemen array
-- Memahami method dasar array (push, pop, shift, unshift)
-- Mampu memanipulasi array menggunakan looping
-- Mampu menghilangkan duplikat dalam array secara manual
+- Memahami cara mengakses elemen pada array menggunakan indeks.
+- Memahami konsep indeks pertama dan indeks terakhir pada array.
+- Mampu mengambil data dari array berdasarkan posisinya.
+- Mampu menampilkan elemen array menggunakan JavaScript.
 
 ## Soal
 
-Akses elemen pertama dan elemen terakhir dari sebuah array.
+Diberikan sebuah array yang berisi beberapa nama buah.
 
-Soal ini melatih penerapan konsep dasar secara langsung. Pastikan kamu memahami alur logikanya terlebih dahulu sebelum menuliskan solusi, karena soal serupa bisa muncul dalam variasi yang sedikit berbeda.
+Buatlah sebuah program untuk menampilkan:
 
-**Hasil yang diharapkan:**
+- Elemen pertama pada array.
+- Elemen terakhir pada array.
 
+> **Catatan:** Fokus utama assignment ini adalah memahami cara mengakses elemen array menggunakan indeks, termasuk menentukan indeks terakhir secara dinamis.
+
+## Result / Test Case
+
+**Input**
+
+```javascript
+const fruits = ["Apel", "Jeruk", "Mangga", "Anggur"];
 ```
+
+**Output**
+
+```text
 Apel
 Anggur
 ```
