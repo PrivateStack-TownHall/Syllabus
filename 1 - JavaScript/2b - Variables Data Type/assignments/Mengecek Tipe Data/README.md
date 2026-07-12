@@ -9,7 +9,7 @@
 
 ## Soal
 
-Buatlah sebuah **function** yang menerima satu buah parameter, kemudian menampilkan **tipe data** dari nilai yang diberikan menggunakan operator `typeof`.
+Buatlah sebuah program untuk menampilkan **tipe data** dari nilai yang diberikan menggunakan operator `typeof`.
 
 Function tersebut harus dapat digunakan untuk berbagai tipe data, seperti **number**, **string**, dan **boolean**.
 
@@ -20,9 +20,9 @@ Function tersebut harus dapat digunakan untuk berbagai tipe data, seperti **numb
 **Input**
 
 ```javascript
-checkType(100);
-checkType("Sekolah Stack");
-checkType(true);
+100;
+("Sekolah Stack");
+true;
 ```
 
 **Output**
